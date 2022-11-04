@@ -1,0 +1,107 @@
+html, body, {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.main-content {
+    background-color: darkorange;
+    background-size: cover;
+   
+}
+
+ul {
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 140%;
+}
+
+
+p {
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 140%;}
+
+h1 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: rgb(9, 1, 17);
+    text-align: left;
+            }
+
+h3 {
+    ont-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 140%;}
+
+h4 {
+    color: rgb(248, 248, 250);
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: rgb(250, 248, 252);
+    text-align: left;
+    }
+  <style>
+    {
+box-sizing: border-box;
+}
+
+/* Style the header */
+header {
+background-color: rgb(209, 138, 32);
+padding: 20px;
+text-align: center;
+font-size: 35px;
+color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+float: left;
+width: 15%;
+height: 860px; /* only for demonstration, should be removed */
+background: #ccc;
+padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+
+article {
+float: right;
+padding: 20px;
+width: 80%;
+background-color: #f1f1f1;
+height: 860px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Style the footer */
+footer {
+background-color: rgb(15, 7, 134);
+padding: 8px;
+text-align: center;
+color: white;
+
+}
+</style>
